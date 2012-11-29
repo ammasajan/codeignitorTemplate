@@ -7,7 +7,9 @@ class Welcome extends MY_Controller {
 	}
 	
 	function index() {
+		$user = $this->ion_auth->user()->row();
 		$this->data['title'] = "Welcome";
+		$this->data['username']=$user->first_name;
 		
 		$this->render();
 	}
