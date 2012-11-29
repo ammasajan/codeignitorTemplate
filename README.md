@@ -1,4 +1,4 @@
-#CodeIgniter Template Project for Class Matrix Project
+#CodeIgniter Template Project
 by [Sajan Kumar.S](http://ammasajan.blogspot.com)
 
 ###Included
@@ -11,6 +11,6 @@ by [Sajan Kumar.S](http://ammasajan.blogspot.com)
 * GroceryCrud Library integrated
   https://github.com/scoumbourdis/grocery-crud
   
-Will be added more stuffs.
+Added latest jquery and jquery UI libs to the latest.
 
 contact me @ ammasajan@gmail.com
