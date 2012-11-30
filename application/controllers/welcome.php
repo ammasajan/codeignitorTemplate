@@ -9,7 +9,13 @@ class Welcome extends MY_Controller {
 	function index() {
 		$user = $this->ion_auth->user()->row();
 		$this->data['title'] = "Welcome";
-		$this->data['username']=$user->first_name;
+		if ($this->session->userdata('group_id')){
+			$this->data['username']=$user->first_name;	
+		}else{
+
+			$this->data['username']='Guest';	
+		}
+		
 		
 		$this->render();
 	}
