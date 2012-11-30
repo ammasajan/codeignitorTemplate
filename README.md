@@ -15,4 +15,6 @@ Added latest jquery and jquery UI libs to the latest.
 
 More stuffs will be added based on requirements.
 
+Note: sql directory having schemas, samples should work only with the default schema only.
+
 Please feel free to contact me @ ammasajan@gmail.com
